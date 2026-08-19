@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Retention And Adoption"
+  short_description: "Diagnose activation, retention, and adoption"
+  default_prompt: "Use $analyze-retention-and-adoption to diagnose product activation, retention, and adoption."

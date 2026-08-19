@@ -1,0 +1,4 @@
+interface:
+  display_name: "Govern AI Product Risk"
+  short_description: "Govern AI risks, controls, and accountability"
+  default_prompt: "Use $govern-ai-product-risk to create a proportionate risk and control plan for this AI product."

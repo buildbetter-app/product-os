@@ -8,7 +8,7 @@
   "skillset": {
     "name": "Product OS Complete",
     "slug": "product-os-complete",
-    "description": "The complete evidence-first Product OS skillset for discovery, strategy, delivery, launch, growth, and product operations."
+    "description": "The complete evidence-first Product OS skillset for discovery, strategy, delivery, operations, and AI product work."
   },
   "skills": [
     {
@@ -40,6 +40,15 @@
     },
     {
       "position": 3,
+      "sourcePath": "skills/segment-product-market/SKILL.md",
+      "create": {
+        "name": "Segment Product Market",
+        "description": "Segment a product market using evidence about jobs, situations, behavior, needs, adoption constraints, economics, and value potential. Use when mapping heterogeneous demand, comparing customer groups, choosing a beachhead, or establishing the segments an ICP decision should evaluate.",
+        "content": "---\nname: segment-product-market\ndescription: Segment a product market using evidence about jobs, situations, behavior, needs, adoption constraints, economics, and value potential. Use when mapping heterogeneous demand, comparing customer groups, choosing a beachhead, or establishing the segments an ICP decision should evaluate.\n---\n\n# Segment Product Market\n\n## Contract\n\nSegmentation explains meaningful differences in value, behavior, or buying conditions. Do not create decorative personas or clusters that cannot change product, positioning, distribution, or investment decisions.\n\n## Workflow\n\n1. Define the decision, market boundary, product state, geography, and evidence horizon.\n2. Assemble evidence from customers, non-users, churned users, alternatives, usage, sales, support, and market sources. Label source, date, sample, and confidence.\n3. Generate candidate segmentation dimensions from jobs, triggering situations, behavior, workflow, constraints, value realized, willingness to change, and buying context before demographics.\n4. Test whether each candidate creates internally coherent and externally distinct groups with observable membership signals.\n5. Compare segments on problem intensity, reach, urgency, ability to adopt, time to value, economics, accessibility, competitive pressure, and strategic fit.\n6. Select the smallest useful segmentation model. Name overlaps, edge cases, unknown membership, and segments intentionally combined or deferred.\n7. Describe implications for product experience, evidence collection, positioning, channels, pricing, success, and the subsequent ICP decision.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use calls, signals, surveys, people and account properties, projects, and documents to compare needs and contexts. Respect access boundaries and never infer sensitive traits that were not explicitly provided.\n\n## Output\n\nReturn decision context, evidence inventory, candidate dimensions, selected segmentation model, segment profiles, comparison matrix, membership signals, implications, confidence, and validation plan.\n\n## Quality Gate\n\nReject segments defined only by convenient firmographics, unsupported stereotypes, or labels that do not lead to different decisions. Keep the market map distinct from the primary ICP selection.\n\n## Provenance\n\nIndependently authored. Informed by [market-segments](https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-segments), [user-segmentation](https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-segmentation), and [defining-icp](https://github.com/RefoundAI/lenny-skills/tree/main/skills/defining-icp).\n"
+      }
+    },
+    {
+      "position": 4,
       "sourcePath": "skills/cluster-feedback-into-jobs/SKILL.md",
       "create": {
         "name": "Cluster Feedback Into Jobs",
@@ -48,7 +57,7 @@
       }
     },
     {
-      "position": 4,
+      "position": 5,
       "sourcePath": "skills/define-jobs-to-be-done/SKILL.md",
       "create": {
         "name": "Define Jobs To Be Done",
@@ -57,7 +66,7 @@
       }
     },
     {
-      "position": 5,
+      "position": 6,
       "sourcePath": "skills/map-customer-journey/SKILL.md",
       "create": {
         "name": "Map Customer Journey",
@@ -66,7 +75,7 @@
       }
     },
     {
-      "position": 6,
+      "position": 7,
       "sourcePath": "skills/analyze-competitors/SKILL.md",
       "create": {
         "name": "Analyze Competitors",
@@ -75,7 +84,7 @@
       }
     },
     {
-      "position": 7,
+      "position": 8,
       "sourcePath": "skills/map-product-opportunities/SKILL.md",
       "create": {
         "name": "Map Product Opportunities",
@@ -84,7 +93,7 @@
       }
     },
     {
-      "position": 8,
+      "position": 9,
       "sourcePath": "skills/validate-product-problem/SKILL.md",
       "create": {
         "name": "Validate Product Problem",
@@ -93,7 +102,7 @@
       }
     },
     {
-      "position": 9,
+      "position": 10,
       "sourcePath": "skills/define-product-vision/SKILL.md",
       "create": {
         "name": "Define Product Vision",
@@ -102,7 +111,7 @@
       }
     },
     {
-      "position": 10,
+      "position": 11,
       "sourcePath": "skills/shape-product-strategy/SKILL.md",
       "create": {
         "name": "Shape Product Strategy",
@@ -111,7 +120,16 @@
       }
     },
     {
-      "position": 11,
+      "position": 12,
+      "sourcePath": "skills/set-product-goals/SKILL.md",
+      "create": {
+        "name": "Set Product Goals",
+        "description": "Translate product strategy into a small system of outcome goals, measurable results, guardrails, ownership, and review rules. Use when setting quarterly goals or OKRs, aligning teams on outcomes, replacing output targets, or checking whether goals can guide tradeoffs.",
+        "content": "---\nname: set-product-goals\ndescription: Translate product strategy into a small system of outcome goals, measurable results, guardrails, ownership, and review rules. Use when setting quarterly goals or OKRs, aligning teams on outcomes, replacing output targets, or checking whether goals can guide tradeoffs.\n---\n\n# Set Product Goals\n\n## Contract\n\nGoals focus choices; metrics describe reality. Start from strategy and customer value, not from available dashboards. Do not disguise features, projects, or activity counts as outcomes.\n\n## Workflow\n\n1. Establish strategic horizon, governing choices, customer outcome, constraints, decision owner, and current baseline.\n2. Identify the few changes in customer behavior or product performance that would demonstrate strategic progress.\n3. Write clear objectives that name a direction and meaningful outcome without prescribing a solution.\n4. Define measurable results with population, baseline, target or threshold, window, source, owner, and rationale. Separate committed targets from learning goals.\n5. Add quality, trust, cost, reliability, and cannibalization guardrails that prevent local optimization.\n6. Test controllability and contribution: the team must influence the result without being able to achieve it through low-value gaming.\n7. Resolve dependencies, shared ownership, conflicting incentives, and capacity implications.\n8. Set check-in cadence, confidence, escalation thresholds, and rules for continuing, revising, or retiring a goal when evidence changes.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use customer evidence, surveys, project state, documents, prior decisions, and signal aggregates to ground desired outcomes. Combine them with authoritative product and business baselines when connected.\n\n## Output\n\nReturn strategy link, objectives, measurable results, baselines, targets, definitions, guardrails, owners, dependencies, confidence, cadence, and change rules.\n\n## Quality Gate\n\nReject goals that are feature lists, have no baseline or owner, reward activity without value, conflict with strategy, or can be declared achieved without observable customer or business evidence.\n\n## Provenance\n\nIndependently authored. Informed by [goal-setting-okrs](https://github.com/RefoundAI/lenny-skills/tree/main/skills/goal-setting-okrs) and [brainstorm-okrs](https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/brainstorm-okrs).\n"
+      }
+    },
+    {
+      "position": 13,
       "sourcePath": "skills/define-product-positioning/SKILL.md",
       "create": {
         "name": "Define Product Positioning",
@@ -120,7 +138,7 @@
       }
     },
     {
-      "position": 12,
+      "position": 14,
       "sourcePath": "skills/define-ideal-customer-profile/SKILL.md",
       "create": {
         "name": "Define Ideal Customer Profile",
@@ -129,7 +147,7 @@
       }
     },
     {
-      "position": 13,
+      "position": 15,
       "sourcePath": "skills/size-market-opportunity/SKILL.md",
       "create": {
         "name": "Size Market Opportunity",
@@ -138,7 +156,7 @@
       }
     },
     {
-      "position": 14,
+      "position": 16,
       "sourcePath": "skills/prioritize-product-opportunities/SKILL.md",
       "create": {
         "name": "Prioritize Product Opportunities",
@@ -147,7 +165,7 @@
       }
     },
     {
-      "position": 15,
+      "position": 17,
       "sourcePath": "skills/size-product-bet/SKILL.md",
       "create": {
         "name": "Size Product Bet",
@@ -156,7 +174,25 @@
       }
     },
     {
-      "position": 16,
+      "position": 18,
+      "sourcePath": "skills/build-product-business-case/SKILL.md",
+      "create": {
+        "name": "Build Product Business Case",
+        "description": "Build an evidence-backed product investment case with baseline, counterfactual, value drivers, costs, scenarios, uncertainty, risks, option value, and decision criteria. Use when requesting funding, comparing major bets, evaluating build-versus-buy, or deciding whether expected value justifies investment.",
+        "content": "---\nname: build-product-business-case\ndescription: Build an evidence-backed product investment case with baseline, counterfactual, value drivers, costs, scenarios, uncertainty, risks, option value, and decision criteria. Use when requesting funding, comparing major bets, evaluating build-versus-buy, or deciding whether expected value justifies investment.\n---\n\n# Build Product Business Case\n\n## Contract\n\nA business case exposes assumptions and choices; it does not manufacture a precise forecast. Compare against the credible counterfactual and include customer, operational, strategic, and risk effects—not revenue alone.\n\n## Workflow\n\n1. Define the investment decision, decision owner, horizon, alternatives, counterfactual, strategic outcome, and cost of delay.\n2. Establish the current baseline for customers, usage, revenue or cost, operations, risk, and capacity with sources and dates.\n3. Map value drivers and causal links: customer value, acquisition, retention, expansion, price, efficiency, risk reduction, learning, and strategic option value.\n4. Estimate one-time and ongoing product, engineering, data, support, sales, compliance, migration, infrastructure, and opportunity costs.\n5. Build conservative, expected, and upside scenarios with ranges, timing, dependencies, confidence, and no-double-counting rules.\n6. Test sensitivity to the few assumptions that dominate the result. Include downside, reversibility, failure cost, and break-even conditions.\n7. Compare alternatives on economics, customer impact, strategic coherence, risk, learning, and organizational capability.\n8. Recommend invest, probe, defer, buy, partner, or stop with funding gates, evidence milestones, and reconsideration triggers.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use account evidence, calls, signals, surveys, projects, documents, and prior decisions to ground demand and impact. Use authoritative finance, billing, usage, and cost systems for numerical baselines.\n\n## Output\n\nReturn decision and counterfactual, evidence ledger, value-driver model, cost model, scenarios, sensitivity, risks, alternatives, recommendation, funding gates, and missing evidence.\n\n## Quality Gate\n\nReject point forecasts without ranges, benefits without causal drivers, omitted operating costs, sunk-cost reasoning, duplicated value, and recommendations whose result flips under a small plausible assumption change without acknowledging it.\n\n## Provenance\n\nIndependently authored. Informed by [evaluating-trade-offs](https://github.com/RefoundAI/lenny-skills/tree/main/skills/evaluating-trade-offs) and [feature-investment-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/feature-investment-advisor), used as reference only because of its noncommercial license.\n"
+      }
+    },
+    {
+      "position": 19,
+      "sourcePath": "skills/manage-product-portfolio/SKILL.md",
+      "create": {
+        "name": "Manage Product Portfolio",
+        "description": "Allocate product investment across outcomes, horizons, lifecycle stages, strategic bets, discovery, maintenance, and obligations as a coherent portfolio. Use when balancing multiple products or initiatives, reviewing capacity allocation, resolving duplicated bets, or deciding what to fund, hold, combine, or stop.",
+        "content": "---\nname: manage-product-portfolio\ndescription: Allocate product investment across outcomes, horizons, lifecycle stages, strategic bets, discovery, maintenance, and obligations as a coherent portfolio. Use when balancing multiple products or initiatives, reviewing capacity allocation, resolving duplicated bets, or deciding what to fund, hold, combine, or stop.\n---\n\n# Manage Product Portfolio\n\n## Contract\n\nPortfolio management allocates scarce attention and capacity to a system of choices. Do not rank unlike work in one score or let committed work, maintenance, risk, and exploratory options disappear behind feature demand.\n\n## Workflow\n\n1. Define portfolio boundary, strategy, outcomes, horizon, capacity, constraints, decision rights, and review cadence.\n2. Inventory active and candidate investments with owner, segment, outcome, lifecycle stage, evidence, spend or capacity, dependencies, commitments, and next decision.\n3. Normalize work into lanes such as obligations, core health, growth, new bets, discovery, platform capability, and sunset while preserving strategic differences.\n4. Identify duplication, gaps, concentration, hidden shared dependencies, unsupported commitments, and initiatives with no credible path to an outcome.\n5. Evaluate portfolio balance across horizons, segments, risk, reversibility, evidence maturity, return profile, learning, and operational load.\n6. Allocate bounded capacity and funding. Sequence dependencies and protect deliberate discovery, maintenance, reliability, compliance, and transition work.\n7. Decide invest, continue, reshape, combine, hold, or stop for each material item with rationale, consequences, and change triggers.\n8. Establish a portfolio review using exact states, outcome evidence, capacity variance, risk, and decisions rather than aggregated status reporting.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use project types, projects, triage, linked tickets, customer evidence, surveys, documents, and prior decisions to build the portfolio view. Promotion or project mutation requires explicit approval.\n\n## Output\n\nReturn portfolio inventory, allocation principles, lane and horizon view, concentration and dependency findings, capacity allocation, item decisions, deferrals, stop list, risks, and review cadence.\n\n## Quality Gate\n\nReject portfolios that fund every strategy, compare obligations directly with speculative bets, omit maintenance or sunset work, hide capacity, or continue initiatives solely because they have already consumed investment.\n\n## Provenance\n\nIndependently authored. Informed by [planning-cadence](https://github.com/RefoundAI/lenny-skills/tree/main/skills/planning-cadence), [roadmap-prioritization](https://github.com/RefoundAI/lenny-skills/tree/main/skills/roadmap-prioritization), and [product-strategy](https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-strategy).\n"
+      }
+    },
+    {
+      "position": 20,
       "sourcePath": "skills/design-product-experiment/SKILL.md",
       "create": {
         "name": "Design Product Experiment",
@@ -165,7 +201,16 @@
       }
     },
     {
-      "position": 17,
+      "position": 21,
+      "sourcePath": "skills/analyze-product-experiment/SKILL.md",
+      "create": {
+        "name": "Analyze Product Experiment",
+        "description": "Analyze product experiment results for validity, effect size, uncertainty, guardrails, heterogeneous effects, and the decision they support. Use when reading an A/B test, prototype study, smoke test, or other completed experiment and deciding whether to ship, extend, revise, or stop.",
+        "content": "---\nname: analyze-product-experiment\ndescription: Analyze product experiment results for validity, effect size, uncertainty, guardrails, heterogeneous effects, and the decision they support. Use when reading an A/B test, prototype study, smoke test, or other completed experiment and deciding whether to ship, extend, revise, or stop.\n---\n\n# Analyze Product Experiment\n\n## Contract\n\nAnalyze against the decision and plan that existed before results were known. Statistical significance is neither product importance nor proof of mechanism. Preserve null, negative, and inconclusive results.\n\n## Workflow\n\n1. Recover the original decision, hypothesis, population, assignment, variants, primary metric, guardrails, duration, sample plan, exclusions, and stopping rule.\n2. Verify exposure and data integrity: eligibility, assignment balance, sample-ratio mismatch, missingness, duplication, contamination, novelty, seasonality, and instrumentation changes.\n3. Report actual sample, duration, baseline, effect size, uncertainty interval, and practical significance for the primary metric.\n4. Evaluate guardrails, operational failures, quality costs, and business or customer tradeoffs even when the primary metric improves.\n5. Correctly handle repeated looks, multiple metrics, clustering, low power, noncompliance, and post-hoc exclusions. State when causal interpretation is not supported.\n6. Analyze predefined segments. Label unplanned slices and discovered explanations as exploratory rather than confirmed.\n7. Compare results with the predeclared decision table and mechanism. Recommend ship, stop, extend, revise, or run a different test with conditions.\n8. Record learning, residual uncertainty, follow-up instrumentation, and how the evidence updates the product decision.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use calls, signals, surveys, project evidence, and synthetic studies as qualitative context around results. Do not replace authoritative assignment and product analytics data with anecdotal evidence.\n\n## Output\n\nReturn design readback, integrity checks, sample and effect estimates, uncertainty, guardrails, segment findings, interpretation limits, decision, follow-up, and evidence record.\n\n## Quality Gate\n\nReject decisions based only on p-values, underpowered nulls described as no effect, post-hoc segments presented as confirmed, or analyses that ignore broken assignment, missing data, and guardrail harm.\n\n## Provenance\n\nIndependently authored. Informed by [product-experiments](https://github.com/RefoundAI/lenny-skills/tree/main/skills/product-experiments) and [ab-test-analysis](https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/ab-test-analysis).\n"
+      }
+    },
+    {
+      "position": 22,
       "sourcePath": "skills/define-product-metrics/SKILL.md",
       "create": {
         "name": "Define Product Metrics",
@@ -174,7 +219,16 @@
       }
     },
     {
-      "position": 18,
+      "position": 23,
+      "sourcePath": "skills/plan-product-instrumentation/SKILL.md",
+      "create": {
+        "name": "Plan Product Instrumentation",
+        "description": "Create a product analytics tracking plan with decision questions, event semantics, identity, properties, privacy, ownership, quality checks, and release validation. Use when instrumenting a feature, operationalizing product metrics, repairing unreliable analytics, or preparing experiment measurement.",
+        "content": "---\nname: plan-product-instrumentation\ndescription: Create a product analytics tracking plan with decision questions, event semantics, identity, properties, privacy, ownership, quality checks, and release validation. Use when instrumenting a feature, operationalizing product metrics, repairing unreliable analytics, or preparing experiment measurement.\n---\n\n# Plan Product Instrumentation\n\n## Contract\n\nInstrumentation is a measurement contract, not an event inventory. Collect only data tied to a decision, define semantics before implementation, and minimize personal or sensitive data.\n\n## Workflow\n\n1. List the decisions, metric definitions, hypotheses, and journeys the instrumentation must support.\n2. Map the observable states and value events from eligibility through exposure, action, outcome, failure, and recovery.\n3. Reuse the existing taxonomy where semantics match. Define each new event with trigger, actor, object, timestamp, source, environment, and exclusions.\n4. Define required properties, types, allowed values, null behavior, cardinality, and versioning. Keep mutable context distinct from event facts.\n5. Specify anonymous, user, account, device, and session identity rules, including merges, cross-device behavior, bots, internal users, and consent boundaries.\n6. Map events to metrics and analyses. Identify joins, attribution windows, late data, duplication, ordering, and warehouse or client differences.\n7. Create implementation ownership and a validation plan using fixtures, expected payloads, schema checks, volume checks, and end-to-end environment evidence.\n8. Define monitoring, documentation, deprecation, and change control so semantic drift becomes visible.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use customer journeys, projects, documents, signals, surveys, and prior decisions to clarify what must be observed. Do not imply BuildBetter contains product event data unless an authoritative analytics source is connected.\n\n## Output\n\nReturn decision map, journey states, event and property dictionary, identity model, metric mapping, privacy constraints, implementation owners, validation cases, monitoring, and deprecation plan.\n\n## Quality Gate\n\nReject tracking plans with ambiguous triggers, unused events, unbounded properties, undocumented identity, sensitive fields without need, or no way to prove events work in the released environment.\n\n## Provenance\n\nIndependently authored. Informed by the measurement disciplines in [north-star-metrics](https://github.com/RefoundAI/lenny-skills/tree/main/skills/north-star-metrics) and [metrics-dashboard](https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/metrics-dashboard).\n"
+      }
+    },
+    {
+      "position": 24,
       "sourcePath": "skills/write-product-requirements/SKILL.md",
       "create": {
         "name": "Write Product Requirements",
@@ -183,7 +237,7 @@
       }
     },
     {
-      "position": 19,
+      "position": 25,
       "sourcePath": "skills/scope-product-release/SKILL.md",
       "create": {
         "name": "Scope Product Release",
@@ -192,7 +246,7 @@
       }
     },
     {
-      "position": 20,
+      "position": 26,
       "sourcePath": "skills/plan-outcome-roadmap/SKILL.md",
       "create": {
         "name": "Plan Outcome Roadmap",
@@ -201,7 +255,7 @@
       }
     },
     {
-      "position": 21,
+      "position": 27,
       "sourcePath": "skills/run-product-premortem/SKILL.md",
       "create": {
         "name": "Run Product Premortem",
@@ -210,7 +264,7 @@
       }
     },
     {
-      "position": 22,
+      "position": 28,
       "sourcePath": "skills/align-product-stakeholders/SKILL.md",
       "create": {
         "name": "Align Product Stakeholders",
@@ -219,7 +273,7 @@
       }
     },
     {
-      "position": 23,
+      "position": 29,
       "sourcePath": "skills/verify-product-outcomes/SKILL.md",
       "create": {
         "name": "Verify Product Outcomes",
@@ -228,7 +282,7 @@
       }
     },
     {
-      "position": 24,
+      "position": 30,
       "sourcePath": "skills/plan-product-launch/SKILL.md",
       "create": {
         "name": "Plan Product Launch",
@@ -237,7 +291,34 @@
       }
     },
     {
-      "position": 25,
+      "position": 31,
+      "sourcePath": "skills/design-go-to-market-motion/SKILL.md",
+      "create": {
+        "name": "Design Go To Market Motion",
+        "description": "Design a repeatable go-to-market motion connecting a beachhead segment, value proof, acquisition, evaluation, purchase, onboarding, expansion, and ownership. Use when choosing PLG, sales-led, partner, community, or hybrid distribution, or when a launch plan lacks a durable path to customers.",
+        "content": "---\nname: design-go-to-market-motion\ndescription: Design a repeatable go-to-market motion connecting a beachhead segment, value proof, acquisition, evaluation, purchase, onboarding, expansion, and ownership. Use when choosing PLG, sales-led, partner, community, or hybrid distribution, or when a launch plan lacks a durable path to customers.\n---\n\n# Design Go To Market Motion\n\n## Contract\n\nGo-to-market is the repeatable system by which customers discover, evaluate, buy, adopt, and expand—not the launch event or messaging document. Match the motion to buying reality, product value, economics, and organizational capability.\n\n## Workflow\n\n1. Define the beachhead segment, job, trigger, buyer and user roles, alternatives, proof required, price and contract context, and current stage.\n2. Map the customer path from awareness through evaluation, commitment, onboarding, value realization, renewal, and expansion.\n3. Compare plausible motions: self-serve, product-led, sales-led, partner-led, community-led, services-led, or hybrid. State assumptions and disqualifiers.\n4. Select channels and handoffs based on customer behavior and unit economics, not channel popularity.\n5. Define the product, marketing, sales, success, support, operations, and partner capabilities required at each stage.\n6. Specify proof assets, qualification, trial or demo, activation, pricing, procurement, implementation, and expansion mechanics.\n7. Model conversion, cycle time, acquisition cost, service load, retention, expansion, capacity, and feedback loops using ranges.\n8. Create a staged validation plan with owners, measures, guardrails, stop conditions, and the evidence required to scale.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use calls, objections, surveys, account context, signals, documents, projects, and customer outcomes to understand buying and adoption. Never send messages, enroll audiences, or change customer access without explicit approval.\n\n## Output\n\nReturn target segment, buying journey, motion choice and alternatives, channel system, handoffs, proof, capability gaps, economic model, validation sequence, measures, and scale conditions.\n\n## Quality Gate\n\nReject motions chosen without buying evidence, funnels with no adoption or retention path, PLG labels for products that require high-touch change, and scale plans whose economics or operating capacity remain unknown.\n\n## Provenance\n\nIndependently authored. Informed by [gtm-motions](https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-motions), [plg-sales-integration](https://github.com/RefoundAI/lenny-skills/tree/main/skills/plg-sales-integration), and [acquisition-channels](https://github.com/RefoundAI/lenny-skills/tree/main/skills/acquisition-channels).\n"
+      }
+    },
+    {
+      "position": 32,
+      "sourcePath": "skills/design-product-onboarding/SKILL.md",
+      "create": {
+        "name": "Design Product Onboarding",
+        "description": "Design an evidence-backed onboarding path from entry to first and repeated value, including segmentation, progressive setup, guidance, recovery, measurement, and experiments. Use when creating or repairing signup, activation, empty states, setup, trial conversion, or role-specific product introduction.",
+        "content": "---\nname: design-product-onboarding\ndescription: Design an evidence-backed onboarding path from entry to first and repeated value, including segmentation, progressive setup, guidance, recovery, measurement, and experiments. Use when creating or repairing signup, activation, empty states, setup, trial conversion, or role-specific product introduction.\n---\n\n# Design Product Onboarding\n\n## Contract\n\nOnboarding helps a specific user reach value in context; it is not a tour of the interface. Remove unnecessary setup before adding explanation, and do not optimize completion at the expense of trust or realized value.\n\n## Workflow\n\n1. Define the target segment, triggering situation, job, prior knowledge, environment, entry channel, and first meaningful value event.\n2. Map the current path with eligibility, required setup, decisions, permissions, dependencies, waits, errors, assistance, and abandonment points.\n3. Separate steps required for value, safety, or compliance from steps serving internal data collection or optional education.\n4. Design the shortest coherent path to value with progressive disclosure, useful defaults, contextual guidance, realistic content, and clear progress.\n5. Handle roles, team invites, integrations, data import, empty states, interrupted sessions, failures, retries, and return visits.\n6. Set expectations about automation, data use, permissions, limitations, time, cost, and irreversible effects before commitment.\n7. Define activation, time-to-value, quality, retention, support, and trust measures with guardrails and exact instrumentation needs.\n8. Prioritize changes and experiments by friction, evidence, impact, effort, and reversibility. State which segment each change serves.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use onboarding calls, signals, surveys, support evidence, account context, projects, and documents to identify friction and successful paths. Do not contact or enroll users without explicit approval.\n\n## Output\n\nReturn segment and value event, current-state journey, friction evidence, target path, screens or states, content principles, exception handling, instrumentation, measures, and experiment backlog.\n\n## Quality Gate\n\nReject onboarding that teaches every feature, requires value-irrelevant setup, obscures permissions or data use, treats completion as activation, or assumes one path fits incompatible segments.\n\n## Provenance\n\nIndependently authored. Informed by [user-onboarding-activation](https://github.com/RefoundAI/lenny-skills/tree/main/skills/user-onboarding-activation) and [customer-journey-map](https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/customer-journey-map).\n"
+      }
+    },
+    {
+      "position": 33,
+      "sourcePath": "skills/analyze-retention-and-adoption/SKILL.md",
+      "create": {
+        "name": "Analyze Retention And Adoption",
+        "description": "Diagnose product activation, cohort retention, engagement, feature adoption, churn, and value realization using behavioral and qualitative evidence. Use when investigating weak adoption, comparing cohorts or segments, evaluating product health, or deciding which retention constraint to address.",
+        "content": "---\nname: analyze-retention-and-adoption\ndescription: Diagnose product activation, cohort retention, engagement, feature adoption, churn, and value realization using behavioral and qualitative evidence. Use when investigating weak adoption, comparing cohorts or segments, evaluating product health, or deciding which retention constraint to address.\n---\n\n# Analyze Retention And Adoption\n\n## Contract\n\nRetention must describe a meaningful return to value for an eligible population. Do not hide cohort decay in aggregate active-user totals or treat logins, clicks, and feature exposure as value realization.\n\n## Workflow\n\n1. Define the decision, population, cohort entry, eligibility, value event, return interval, observation window, product state, and segments.\n2. Validate identity, event semantics, data completeness, censoring, bot and internal traffic, plan or entitlement changes, and acquisition-mix shifts.\n3. Map the path from entry through setup, activation, first value, repeated value, habit or workflow embedding, expansion, inactivity, and churn.\n4. Build cohort views for activation, time to value, classic or rolling retention, frequency, depth, breadth, feature adoption, and reactivation as appropriate.\n5. Compare segments by job, source, account, product version, tenure, behavior, and value achieved without averaging incompatible populations.\n6. Join behavioral patterns with customer evidence about friction, unmet jobs, alternatives, reliability, price, support, and reasons for leaving.\n7. Diagnose the primary constraint and distinguish acquisition quality, onboarding, product value, usability, reliability, pricing, or measurement problems.\n8. Recommend a bounded intervention, success and guardrail measures, expected affected cohort, and next evidence needed.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use calls, signals, survey responses, people and account context, documents, and projects to explain behavioral patterns. Keep those sources distinct from authoritative product analytics and billing data.\n\n## Output\n\nReturn definitions, data-quality findings, cohort and segment views, value-path analysis, customer evidence, constraint diagnosis, confidence, intervention, and measurement plan.\n\n## Quality Gate\n\nReject aggregate retention without cohort definitions, adoption based only on exposure, causal claims from descriptive slices, or recommendations that cannot name the value event and affected population.\n\n## Provenance\n\nIndependently authored. Informed by [retention-engagement](https://github.com/RefoundAI/lenny-skills/tree/main/skills/retention-engagement) and [cohort-analysis](https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/cohort-analysis).\n"
+      }
+    },
+    {
+      "position": 34,
       "sourcePath": "skills/design-pricing-packaging/SKILL.md",
       "create": {
         "name": "Design Pricing And Packaging",
@@ -246,7 +327,7 @@
       }
     },
     {
-      "position": 26,
+      "position": 35,
       "sourcePath": "skills/design-growth-loop/SKILL.md",
       "create": {
         "name": "Design Growth Loop",
@@ -255,7 +336,7 @@
       }
     },
     {
-      "position": 27,
+      "position": 36,
       "sourcePath": "skills/evaluate-product-market-fit/SKILL.md",
       "create": {
         "name": "Evaluate Product Market Fit",
@@ -264,7 +345,7 @@
       }
     },
     {
-      "position": 28,
+      "position": 37,
       "sourcePath": "skills/run-product-review/SKILL.md",
       "create": {
         "name": "Run Product Review",
@@ -273,7 +354,7 @@
       }
     },
     {
-      "position": 29,
+      "position": 38,
       "sourcePath": "skills/review-product-plan/SKILL.md",
       "create": {
         "name": "Review Product Plan",
@@ -282,7 +363,7 @@
       }
     },
     {
-      "position": 30,
+      "position": 39,
       "sourcePath": "skills/write-product-decision/SKILL.md",
       "create": {
         "name": "Write Product Decision",
@@ -291,12 +372,48 @@
       }
     },
     {
-      "position": 31,
+      "position": 40,
       "sourcePath": "skills/manage-product-sunset/SKILL.md",
       "create": {
         "name": "Manage Product Sunset",
         "description": "Plan and govern a safe product, feature, integration, API, or plan sunset with evidence, affected-user analysis, alternatives, communication, migration, support, access, data, billing, and rollback. Use when deprecating or retiring a product surface, reducing a portfolio, or reviewing end-of-life readiness.",
         "content": "---\nname: manage-product-sunset\ndescription: Plan and govern a safe product, feature, integration, API, or plan sunset with evidence, affected-user analysis, alternatives, communication, migration, support, access, data, billing, and rollback. Use when deprecating or retiring a product surface, reducing a portfolio, or reviewing end-of-life readiness.\n---\n\n# Manage Product Sunset\n\n## Contract\n\nSunset is a customer transition and risk program, not a deletion date. Confirm authority, affected populations, contractual obligations, recoverability, and evidence before irreversible actions.\n\n## Workflow\n\n1. Define the candidate, rationale, decision owner, status, target dates, reversibility, and alternatives to retirement.\n2. Inventory usage, revenue, cost, strategic fit, reliability, dependencies, integrations, contracts, data, security, and customer evidence.\n3. Segment affected customers and internal teams by impact, migration complexity, entitlement, geography, and support need.\n4. Choose deprecation stages and entry or exit criteria: decision, internal freeze, announcement, migration, restricted access, shutdown, retention, and deletion.\n5. Design alternatives, migration tooling, validation, data export or retention, billing changes, support escalation, and exception policy.\n6. Plan communications by audience and channel with clear dates, impact, action, assistance, and confirmation. Do not send without explicit approval.\n7. Define monitoring, readiness reviews, rollback or extension criteria, final verification, and post-sunset cleanup.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use account and people context, calls, signals, surveys, projects, tickets, documents, and knowledge gaps to assess impact. Never change customer access, billing, lifecycle state, or send communications without exact approval and a readback.\n\n## Output\n\nReturn evidence and decision brief, affected-customer matrix, dependency inventory, staged timeline, migration and support plan, communications, exceptions, risk register, approval gates, rollback, and verification plan.\n\n## Quality Gate\n\nReject a sunset with unknown affected users, no viable transition, unresolved contract or data obligations, unowned support, or irreversible action before verified readiness.\n\n## Provenance\n\nIndependently authored. Informed by [eol-process](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/eol-process), used as reference only because of its noncommercial license, and [planning-cadence](https://github.com/RefoundAI/lenny-skills/tree/main/skills/planning-cadence).\n"
+      }
+    },
+    {
+      "position": 41,
+      "sourcePath": "skills/design-ai-product-evaluation/SKILL.md",
+      "create": {
+        "name": "Design AI Product Evaluation",
+        "description": "Design an empirical evaluation system for an AI product using representative tasks, quality dimensions, human and automated judgments, slices, thresholds, regressions, and online outcomes. Use when defining AI quality, replacing vibe checks, comparing models or prompts, or setting release gates.",
+        "content": "---\nname: design-ai-product-evaluation\ndescription: Design an empirical evaluation system for an AI product using representative tasks, quality dimensions, human and automated judgments, slices, thresholds, regressions, and online outcomes. Use when defining AI quality, replacing vibe checks, comparing models or prompts, or setting release gates.\n---\n\n# Design AI Product Evaluation\n\n## Contract\n\nEvaluate the product behavior users experience, not a model in isolation. No single score captures usefulness, safety, reliability, latency, and cost. Automated graders require validation against qualified human judgment.\n\n## Workflow\n\n1. Define the user decision or job, workflow context, AI responsibility, failure consequences, and release decision the evaluation must support.\n2. Decompose quality into task-specific dimensions such as correctness, completeness, grounding, instruction adherence, calibration, consistency, safety, style, latency, and cost.\n3. Build a representative evaluation set from real or carefully governed synthetic tasks, including common, difficult, adversarial, multilingual, accessibility, and high-impact slices.\n4. Define reference answers or rubrics only where they are valid. Preserve tasks with multiple acceptable outputs and specify pairwise, scalar, categorical, or task-success judgments.\n5. Choose human reviewers, deterministic checks, model graders, simulations, and online measures for each dimension. Measure grader agreement, bias, and drift.\n6. Establish baselines, uncertainty, minimum acceptable thresholds, regression budgets, hard safety gates, and tradeoff rules across quality, latency, and cost.\n7. Run blinded comparisons when possible. Investigate failures by slice and mechanism rather than averaging them away.\n8. Connect offline results to staged online behavior, monitoring, incident review, dataset refresh, and versioned release decisions.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use calls, signals, surveys, projects, documents, synthetic persona studies, and customer outcomes to build tasks and rubrics. Remove or govern sensitive data and keep synthetic judgments distinct from real-user evidence.\n\n## Output\n\nReturn evaluation purpose, quality dimensions, dataset and slices, rubric, evaluators, grader validation, baselines, thresholds, results plan, release gates, monitoring, and unresolved coverage.\n\n## Quality Gate\n\nReject cherry-picked demos, one-number quality claims, graders never calibrated to humans, datasets contaminated by the system under test, and release gates that ignore high-impact slices or regression risk.\n\n## Provenance\n\nIndependently authored. Informed by [ai-evals](https://github.com/RefoundAI/lenny-skills/tree/main/skills/ai-evals) and [product-experiments](https://github.com/RefoundAI/lenny-skills/tree/main/skills/product-experiments).\n"
+      }
+    },
+    {
+      "position": 42,
+      "sourcePath": "skills/design-human-ai-workflow/SKILL.md",
+      "create": {
+        "name": "Design Human AI Workflow",
+        "description": "Design a reliable human-AI workflow with explicit roles, autonomy, context, review, control, recovery, feedback, and accountability. Use when adding copilots, agents, recommendations, generation, or automation to a real workflow and deciding what the AI may do versus what people must control.",
+        "content": "---\nname: design-human-ai-workflow\ndescription: Design a reliable human-AI workflow with explicit roles, autonomy, context, review, control, recovery, feedback, and accountability. Use when adding copilots, agents, recommendations, generation, or automation to a real workflow and deciding what the AI may do versus what people must control.\n---\n\n# Design Human AI Workflow\n\n## Contract\n\nDesign the joint system, not an AI feature in isolation. Autonomy must match uncertainty, reversibility, user expertise, and consequence. A human approval step is not a control when the reviewer lacks context, time, or a meaningful alternative.\n\n## Workflow\n\n1. Map the current job, actors, information, tools, decisions, handoffs, exceptions, incentives, and failure recovery.\n2. Identify where AI could retrieve, transform, recommend, generate, decide, or act. Compare it with simpler automation and unchanged human work.\n3. Assign responsibility for each step: human only, AI proposes, AI acts with confirmation, AI acts within limits, or AI acts with retrospective review.\n4. Define context sources, freshness, permissions, provenance, uncertainty, and what the system must never infer or retain.\n5. Design previews, explanations, confidence or evidence cues, editing, approval, cancellation, undo, escalation, and safe defaults appropriate to the risk.\n6. Handle ambiguity, tool failure, partial completion, conflicting instructions, stale state, unavailable reviewers, and repeated failure without silent continuation.\n7. Define learning and feedback loops without making users responsible for endless correction or turning unreviewed feedback into truth.\n8. Measure task success, effort, time, quality, override, recovery, trust calibration, distributional effects, and automation-induced errors.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use calls, workflows, signals, surveys, projects, documents, and synthetic persona exploration to understand work and failure modes. Do not grant access, run external actions, or contact customers without explicit authority.\n\n## Output\n\nReturn current workflow, opportunity assessment, responsibility and autonomy map, context contract, interaction states, controls, exception paths, feedback system, measures, and rollout assumptions.\n\n## Quality Gate\n\nReject AI added without a user outcome, automation that removes meaningful control, review steps that cannot catch errors, hidden external actions, and interfaces that communicate confidence without evidence.\n\n## Provenance\n\nIndependently authored. Informed by [ai-native-ux](https://github.com/RefoundAI/lenny-skills/tree/main/skills/ai-native-ux), [ai-product-strategy](https://github.com/RefoundAI/lenny-skills/tree/main/skills/ai-product-strategy), and [building-with-ai-agents](https://github.com/RefoundAI/lenny-skills/tree/main/skills/building-with-ai-agents).\n"
+      }
+    },
+    {
+      "position": 43,
+      "sourcePath": "skills/govern-ai-product-risk/SKILL.md",
+      "create": {
+        "name": "Govern AI Product Risk",
+        "description": "Govern AI product risks through use-case boundaries, harm analysis, controls, accountability, testing, monitoring, incident response, and review triggers. Use when an AI capability affects customers, sensitive data, consequential decisions, external actions, or regulated and high-impact workflows.",
+        "content": "---\nname: govern-ai-product-risk\ndescription: Govern AI product risks through use-case boundaries, harm analysis, controls, accountability, testing, monitoring, incident response, and review triggers. Use when an AI capability affects customers, sensitive data, consequential decisions, external actions, or regulated and high-impact workflows.\n---\n\n# Govern AI Product Risk\n\n## Contract\n\nRisk governance must be proportionate to real use and consequence. It does not replace legal, security, privacy, safety, or domain-expert review and must not claim compliance merely because a checklist is complete.\n\n## Workflow\n\n1. Define intended users, affected non-users, purpose, prohibited uses, deployment context, data, model and tool capabilities, autonomy, and decision consequences.\n2. Map harms across incorrect output, omission, bias, privacy, security, manipulation, overreliance, loss of control, unsafe action, economic impact, and downstream reuse.\n3. Rate severity, likelihood, exposure, detectability, reversibility, and distribution across relevant populations. Preserve uncertainty and credible worst cases.\n4. Select controls by layer: product scope, data, model, prompt, retrieval, tools, permissions, interface, human review, rate limits, logging, monitoring, and operations.\n5. Assign accountable owners, evidence requirements, approval rights, exceptions, expiry, and independent reviewers for high-impact decisions.\n6. Define misuse, abuse, red-team, accessibility, privacy, security, and domain tests with release-blocking thresholds.\n7. Establish monitoring, user reporting, containment, rollback, notification, remediation, and incident-review paths.\n8. Reassess when models, prompts, data, tools, autonomy, audience, geography, policy, or observed harm changes.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use customer evidence, surveys, projects, documents, knowledge gaps, release context, and prior incidents where accessible. Respect access boundaries and do not expose sensitive evidence in the risk artifact.\n\n## Output\n\nReturn use-case boundaries, stakeholder and harm map, risk register, layered controls, owners, required reviews, test plan, release gates, monitoring, incident process, and reassessment triggers.\n\n## Quality Gate\n\nReject generic risk lists detached from the use case, controls with no owner or evidence, high-impact automation with nominal review, and unsupported claims that the product is safe, unbiased, secure, or compliant.\n\n## Provenance\n\nIndependently authored. Informed by the empirical and user-control disciplines in [ai-evals](https://github.com/RefoundAI/lenny-skills/tree/main/skills/ai-evals) and [ai-native-ux](https://github.com/RefoundAI/lenny-skills/tree/main/skills/ai-native-ux).\n"
+      }
+    },
+    {
+      "position": 44,
+      "sourcePath": "skills/plan-ai-model-rollout/SKILL.md",
+      "create": {
+        "name": "Plan AI Model Rollout",
+        "description": "Plan a staged, observable, and reversible rollout for a new AI model, prompt, retrieval configuration, agent policy, or provider. Use when changing AI behavior in production, migrating models, enabling new autonomy, or deciding how offline evaluation becomes bounded customer exposure.",
+        "content": "---\nname: plan-ai-model-rollout\ndescription: Plan a staged, observable, and reversible rollout for a new AI model, prompt, retrieval configuration, agent policy, or provider. Use when changing AI behavior in production, migrating models, enabling new autonomy, or deciding how offline evaluation becomes bounded customer exposure.\n---\n\n# Plan AI Model Rollout\n\n## Contract\n\nAn AI change is a versioned product release even when the interface does not change. Offline evaluation is an entry gate, not production proof. Keep model, prompt, retrieval, tools, policy, and data versions independently identifiable.\n\n## Workflow\n\n1. Define the exact change, owner, affected jobs and populations, current baseline, intended improvement, known regressions, dependencies, and rollback target.\n2. Record immutable versions for model or provider, prompts, retrieval indexes, tools, policies, parameters, safety controls, and evaluation set.\n3. Confirm offline quality, safety, latency, cost, capacity, privacy, security, and compatibility gates by relevant slice.\n4. Choose staged exposure: internal, shadow, replay, staff, opt-in, canary, percentage, segment, geography, or broad release. Prevent contamination where comparison matters.\n5. Define eligibility, routing, sticky assignment, fallbacks, timeout, partial failure, provider outage, quota, and data-residency behavior.\n6. Set online success, quality, safety, latency, cost, override, complaint, and incident measures with owners and observation windows.\n7. Predefine pause, rollback, containment, and escalation thresholds. Test rollback and state compatibility before customer exposure.\n8. Record approvals, release evidence, exact state, monitoring, customer communication needs, and the decision required at each expansion gate.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use customer evidence, surveys, projects, documents, knowledge gaps, agent sessions, and release context when deployed. External exposure, communication, access changes, or irreversible actions require explicit approval.\n\n## Output\n\nReturn change manifest, evaluation evidence, rollout stages, routing and fallback, measures, thresholds, owners, rollback proof, approvals, communication needs, and expansion decisions.\n\n## Quality Gate\n\nReject rollouts without immutable configuration, slice-level gates, tested fallback, cost and latency bounds, accountable monitoring, or a clear distinction between deployed, exposed, observed, and validated.\n\n## Provenance\n\nIndependently authored. Informed by [ai-evals](https://github.com/RefoundAI/lenny-skills/tree/main/skills/ai-evals), [ai-product-strategy](https://github.com/RefoundAI/lenny-skills/tree/main/skills/ai-product-strategy), and [launch-planning](https://github.com/RefoundAI/lenny-skills/tree/main/skills/launch-planning).\n"
       }
     }
   ]

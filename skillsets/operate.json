@@ -2,9 +2,12 @@
   "schemaVersion": 1,
   "slug": "product-os-operate",
   "name": "Product OS Operate",
-  "description": "Launch, pricing, growth, product-market fit, operating reviews, plan review, decision records, and product sunset.",
+  "description": "Go-to-market, launch, onboarding, retention, pricing, growth, product-market fit, reviews, decisions, and product sunset.",
   "skills": [
     "plan-product-launch",
+    "design-go-to-market-motion",
+    "design-product-onboarding",
+    "analyze-retention-and-adoption",
     "design-pricing-packaging",
     "design-growth-loop",
     "evaluate-product-market-fit",

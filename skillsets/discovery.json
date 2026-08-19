@@ -2,11 +2,12 @@
   "schemaVersion": 1,
   "slug": "product-os-discovery",
   "name": "Product OS Discovery",
-  "description": "Evidence-first customer discovery, research synthesis, jobs, journeys, alternatives, and opportunity mapping.",
+  "description": "Evidence-first customer discovery, research synthesis, segmentation, jobs, journeys, alternatives, and opportunity mapping.",
   "skills": [
     "plan-product-discovery",
     "plan-customer-interviews",
     "synthesize-customer-research",
+    "segment-product-market",
     "cluster-feedback-into-jobs",
     "define-jobs-to-be-done",
     "map-customer-journey",

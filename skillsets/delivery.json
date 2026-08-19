@@ -2,10 +2,12 @@
   "schemaVersion": 1,
   "slug": "product-os-delivery",
   "name": "Product OS Delivery",
-  "description": "Experiments, metrics, requirements, release scope, roadmaps, risk, stakeholder alignment, and outcome verification.",
+  "description": "Experiment design and analysis, metrics, instrumentation, requirements, release scope, roadmaps, risk, alignment, and outcome verification.",
   "skills": [
     "design-product-experiment",
+    "analyze-product-experiment",
     "define-product-metrics",
+    "plan-product-instrumentation",
     "write-product-requirements",
     "scope-product-release",
     "plan-outcome-roadmap",

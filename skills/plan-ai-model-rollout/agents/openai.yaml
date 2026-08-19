@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan AI Model Rollout"
+  short_description: "Roll out AI changes with empirical safeguards"
+  default_prompt: "Use $plan-ai-model-rollout to plan a staged, observable, and reversible AI model rollout."

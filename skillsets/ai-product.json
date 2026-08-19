@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "slug": "product-os-ai-product",
+  "name": "Product OS AI Product",
+  "description": "AI product evaluation, human-AI workflow design, risk governance, and staged model rollout.",
+  "skills": [
+    "design-ai-product-evaluation",
+    "design-human-ai-workflow",
+    "govern-ai-product-risk",
+    "plan-ai-model-rollout"
+  ]
+}

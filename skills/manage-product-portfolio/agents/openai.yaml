@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manage Product Portfolio"
+  short_description: "Allocate product investment across a portfolio"
+  default_prompt: "Use $manage-product-portfolio to allocate product investment across outcomes, bets, and obligations."

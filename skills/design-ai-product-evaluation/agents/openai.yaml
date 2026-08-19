@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design AI Product Evaluation"
+  short_description: "Design evaluations for AI product quality"
+  default_prompt: "Use $design-ai-product-evaluation to design an empirical evaluation system for this AI product."

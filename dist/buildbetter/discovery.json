@@ -8,7 +8,7 @@
   "skillset": {
     "name": "Product OS Discovery",
     "slug": "product-os-discovery",
-    "description": "Evidence-first customer discovery, research synthesis, jobs, journeys, alternatives, and opportunity mapping."
+    "description": "Evidence-first customer discovery, research synthesis, segmentation, jobs, journeys, alternatives, and opportunity mapping."
   },
   "skills": [
     {
@@ -40,6 +40,15 @@
     },
     {
       "position": 3,
+      "sourcePath": "skills/segment-product-market/SKILL.md",
+      "create": {
+        "name": "Segment Product Market",
+        "description": "Segment a product market using evidence about jobs, situations, behavior, needs, adoption constraints, economics, and value potential. Use when mapping heterogeneous demand, comparing customer groups, choosing a beachhead, or establishing the segments an ICP decision should evaluate.",
+        "content": "---\nname: segment-product-market\ndescription: Segment a product market using evidence about jobs, situations, behavior, needs, adoption constraints, economics, and value potential. Use when mapping heterogeneous demand, comparing customer groups, choosing a beachhead, or establishing the segments an ICP decision should evaluate.\n---\n\n# Segment Product Market\n\n## Contract\n\nSegmentation explains meaningful differences in value, behavior, or buying conditions. Do not create decorative personas or clusters that cannot change product, positioning, distribution, or investment decisions.\n\n## Workflow\n\n1. Define the decision, market boundary, product state, geography, and evidence horizon.\n2. Assemble evidence from customers, non-users, churned users, alternatives, usage, sales, support, and market sources. Label source, date, sample, and confidence.\n3. Generate candidate segmentation dimensions from jobs, triggering situations, behavior, workflow, constraints, value realized, willingness to change, and buying context before demographics.\n4. Test whether each candidate creates internally coherent and externally distinct groups with observable membership signals.\n5. Compare segments on problem intensity, reach, urgency, ability to adopt, time to value, economics, accessibility, competitive pressure, and strategic fit.\n6. Select the smallest useful segmentation model. Name overlaps, edge cases, unknown membership, and segments intentionally combined or deferred.\n7. Describe implications for product experience, evidence collection, positioning, channels, pricing, success, and the subsequent ICP decision.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use calls, signals, surveys, people and account properties, projects, and documents to compare needs and contexts. Respect access boundaries and never infer sensitive traits that were not explicitly provided.\n\n## Output\n\nReturn decision context, evidence inventory, candidate dimensions, selected segmentation model, segment profiles, comparison matrix, membership signals, implications, confidence, and validation plan.\n\n## Quality Gate\n\nReject segments defined only by convenient firmographics, unsupported stereotypes, or labels that do not lead to different decisions. Keep the market map distinct from the primary ICP selection.\n\n## Provenance\n\nIndependently authored. Informed by [market-segments](https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-segments), [user-segmentation](https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-segmentation), and [defining-icp](https://github.com/RefoundAI/lenny-skills/tree/main/skills/defining-icp).\n"
+      }
+    },
+    {
+      "position": 4,
       "sourcePath": "skills/cluster-feedback-into-jobs/SKILL.md",
       "create": {
         "name": "Cluster Feedback Into Jobs",
@@ -48,7 +57,7 @@
       }
     },
     {
-      "position": 4,
+      "position": 5,
       "sourcePath": "skills/define-jobs-to-be-done/SKILL.md",
       "create": {
         "name": "Define Jobs To Be Done",
@@ -57,7 +66,7 @@
       }
     },
     {
-      "position": 5,
+      "position": 6,
       "sourcePath": "skills/map-customer-journey/SKILL.md",
       "create": {
         "name": "Map Customer Journey",
@@ -66,7 +75,7 @@
       }
     },
     {
-      "position": 6,
+      "position": 7,
       "sourcePath": "skills/analyze-competitors/SKILL.md",
       "create": {
         "name": "Analyze Competitors",
@@ -75,7 +84,7 @@
       }
     },
     {
-      "position": 7,
+      "position": 8,
       "sourcePath": "skills/map-product-opportunities/SKILL.md",
       "create": {
         "name": "Map Product Opportunities",
