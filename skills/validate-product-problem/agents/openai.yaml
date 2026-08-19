@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Product Problem"
+  short_description: "Assess problem evidence and decision readiness"
+  default_prompt: "Use $validate-product-problem to create a decision-ready product artifact from the available evidence."

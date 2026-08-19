@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Competitors"
+  short_description: "Compare alternatives around customer value"
+  default_prompt: "Use $analyze-competitors to create a decision-ready product artifact from the available evidence."

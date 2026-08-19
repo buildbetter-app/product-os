@@ -1,0 +1,4 @@
+interface:
+  display_name: "Define Ideal Customer Profile"
+  short_description: "Identify the best-fit customer segment"
+  default_prompt: "Use $define-ideal-customer-profile to create a decision-ready product artifact from the available evidence."

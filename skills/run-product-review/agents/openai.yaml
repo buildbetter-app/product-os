@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run Product Review"
+  short_description: "Run a decision-focused product operating review"
+  default_prompt: "Use $run-product-review to create a decision-ready product artifact from the available evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scope Product Release"
+  short_description: "Cut scope while preserving the target outcome"
+  default_prompt: "Use $scope-product-release to create a decision-ready product artifact from the available evidence."

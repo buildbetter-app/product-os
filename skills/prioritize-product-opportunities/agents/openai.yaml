@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prioritize Product Opportunities"
+  short_description: "Rank opportunities without false precision"
+  default_prompt: "Use $prioritize-product-opportunities to create a decision-ready product artifact from the available evidence."

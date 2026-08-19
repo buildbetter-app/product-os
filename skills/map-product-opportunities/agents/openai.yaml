@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Product Opportunities"
+  short_description: "Connect outcomes, opportunities, and tests"
+  default_prompt: "Use $map-product-opportunities to create a decision-ready product artifact from the available evidence."

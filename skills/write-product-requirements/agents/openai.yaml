@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Product Requirements"
+  short_description: "Write evidence-linked outcome requirements"
+  default_prompt: "Use $write-product-requirements to create a decision-ready product artifact from the available evidence."

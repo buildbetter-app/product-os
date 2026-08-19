@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Customer Interviews"
+  short_description: "Prepare unbiased customer interviews"
+  default_prompt: "Use $plan-customer-interviews to create a decision-ready product artifact from the available evidence."

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "slug": "product-os-strategy",
+  "name": "Product OS Strategy",
+  "description": "Problem validation, vision, strategy, positioning, ICP, market sizing, prioritization, and bet sizing.",
+  "skills": [
+    "validate-product-problem",
+    "define-product-vision",
+    "shape-product-strategy",
+    "define-product-positioning",
+    "define-ideal-customer-profile",
+    "size-market-opportunity",
+    "prioritize-product-opportunities",
+    "size-product-bet"
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Run Product Premortem"
+  short_description: "Surface and mitigate launch failure modes"
+  default_prompt: "Use $run-product-premortem to create a decision-ready product artifact from the available evidence."

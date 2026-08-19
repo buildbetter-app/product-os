@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Product Discovery"
+  short_description: "Build an evidence-driven discovery cadence"
+  default_prompt: "Use $plan-product-discovery to create a decision-ready product artifact from the available evidence."

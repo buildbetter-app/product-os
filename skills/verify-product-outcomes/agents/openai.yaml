@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Product Outcomes"
+  short_description: "Compare shipped behavior with intended outcomes"
+  default_prompt: "Use $verify-product-outcomes to create a decision-ready product artifact from the available evidence."

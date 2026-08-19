@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Growth Loop"
+  short_description: "Model a measurable product-native growth loop"
+  default_prompt: "Use $design-growth-loop to create a decision-ready product artifact from the available evidence."

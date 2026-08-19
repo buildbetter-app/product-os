@@ -1,0 +1,4 @@
+interface:
+  display_name: "Define Product Metrics"
+  short_description: "Build a metric tree that drives decisions"
+  default_prompt: "Use $define-product-metrics to create a decision-ready product artifact from the available evidence."

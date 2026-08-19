@@ -1,0 +1,4 @@
+interface:
+  display_name: "Map Customer Journey"
+  short_description: "Map stages, needs, friction, and evidence"
+  default_prompt: "Use $map-customer-journey to create a decision-ready product artifact from the available evidence."

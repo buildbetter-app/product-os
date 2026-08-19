@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shape Product Strategy"
+  short_description: "Make evidence-backed strategic choices"
+  default_prompt: "Use $shape-product-strategy to create a decision-ready product artifact from the available evidence."

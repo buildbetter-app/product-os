@@ -1,0 +1,4 @@
+interface:
+  display_name: "Write Product Decision"
+  short_description: "Record context, choice, rationale, and follow-up"
+  default_prompt: "Use $write-product-decision to create a decision-ready product artifact from the available evidence."

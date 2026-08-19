@@ -1,0 +1,4 @@
+interface:
+  display_name: "Size Product Bet"
+  short_description: "Set appetite, scope, and kill criteria"
+  default_prompt: "Use $size-product-bet to create a decision-ready product artifact from the available evidence."

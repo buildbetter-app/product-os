@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Product Experiment"
+  short_description: "Design decisive experiments and guardrails"
+  default_prompt: "Use $design-product-experiment to create a decision-ready product artifact from the available evidence."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Synthesize Customer Research"
+  short_description: "Turn raw research into traceable insights"
+  default_prompt: "Use $synthesize-customer-research to create a decision-ready product artifact from the available evidence."

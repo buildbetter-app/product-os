@@ -1,0 +1,4 @@
+interface:
+  display_name: "Size Market Opportunity"
+  short_description: "Estimate market scope with explicit assumptions"
+  default_prompt: "Use $size-market-opportunity to create a decision-ready product artifact from the available evidence."

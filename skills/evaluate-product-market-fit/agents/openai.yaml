@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evaluate Product Market Fit"
+  short_description: "Assess fit using converging evidence"
+  default_prompt: "Use $evaluate-product-market-fit to create a decision-ready product artifact from the available evidence."

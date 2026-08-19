@@ -1,0 +1,4 @@
+interface:
+  display_name: "Align Product Stakeholders"
+  short_description: "Create decision clarity and ownership"
+  default_prompt: "Use $align-product-stakeholders to create a decision-ready product artifact from the available evidence."

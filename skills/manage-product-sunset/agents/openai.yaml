@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manage Product Sunset"
+  short_description: "Plan a safe and measurable product retirement"
+  default_prompt: "Use $manage-product-sunset to create a decision-ready product artifact from the available evidence."

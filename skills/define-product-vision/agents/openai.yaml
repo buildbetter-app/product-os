@@ -1,0 +1,4 @@
+interface:
+  display_name: "Define Product Vision"
+  short_description: "Create a durable and directional product vision"
+  default_prompt: "Use $define-product-vision to create a decision-ready product artifact from the available evidence."

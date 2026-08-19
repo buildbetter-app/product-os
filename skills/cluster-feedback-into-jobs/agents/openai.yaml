@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cluster Feedback Into Jobs"
+  short_description: "Reframe requests as customer jobs"
+  default_prompt: "Use $cluster-feedback-into-jobs to create a decision-ready product artifact from the available evidence."

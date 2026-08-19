@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "slug": "product-os-complete",
+  "name": "Product OS Complete",
+  "description": "The complete evidence-first Product OS skillset for discovery, strategy, delivery, launch, growth, and product operations.",
+  "includes": [
+    "discovery",
+    "strategy",
+    "delivery",
+    "operate"
+  ]
+}

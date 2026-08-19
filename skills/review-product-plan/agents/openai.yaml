@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Product Plan"
+  short_description: "Red-team a product plan with evidence"
+  default_prompt: "Use $review-product-plan to create a decision-ready product artifact from the available evidence."

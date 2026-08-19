@@ -1,0 +1,4 @@
+interface:
+  display_name: "Define Product Positioning"
+  short_description: "Clarify category, alternatives, and value"
+  default_prompt: "Use $define-product-positioning to create a decision-ready product artifact from the available evidence."

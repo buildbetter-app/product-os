@@ -1,0 +1,4 @@
+interface:
+  display_name: "Define Jobs To Be Done"
+  short_description: "Write durable outcome-centered job definitions"
+  default_prompt: "Use $define-jobs-to-be-done to create a decision-ready product artifact from the available evidence."

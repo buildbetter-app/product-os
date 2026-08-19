@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Product Launch"
+  short_description: "Coordinate launch readiness and learning"
+  default_prompt: "Use $plan-product-launch to create a decision-ready product artifact from the available evidence."
