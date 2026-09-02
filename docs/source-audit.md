@@ -44,7 +44,7 @@ Each candidate was evaluated on:
 - portability across agent harnesses;
 - opportunity for BuildBetter evidence or MCP acceleration.
 
-The result is 32 canonical skills rather than a union of 245 source skills. Career coaching, founder psychology, generic communications, legal drafting, SQL, resume review, and other useful but non-core topics remain outside Product OS.
+The result is 45 canonical skills rather than a union of hundreds of source skills. The second catalog wave adds market segmentation, goals, instrumentation, experiment analysis, retention, onboarding, go-to-market motion, business cases, portfolio management, and a focused AI Product pack. Career coaching, founder psychology, generic communications, legal drafting, SQL, resume review, and other useful but non-core topics remain outside Product OS.
 
 ## BuildBetter MCP coverage
 

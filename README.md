@@ -1,6 +1,6 @@
 # Product OS
 
-Product OS is an open, evidence-first operating system for product work. It packages 32 focused agent skills across discovery, strategy, delivery, and product operations.
+Product OS is an open, evidence-first operating system for product work. It packages 45 focused agent skills across discovery, strategy, delivery, product operations, and AI product work.
 
 The skills are vendor-neutral and usable from any agent harness that supports the common SKILL.md format. When BuildBetter MCP is available, evidence-heavy skills use organization Skillsets and customer context as an acceleration layer; every workflow still has an artifact-only fallback.
 
@@ -8,11 +8,12 @@ The skills are vendor-neutral and usable from any agent harness that supports th
 
 | Pack | Purpose | Skills |
 | --- | --- | ---: |
-| Discovery | Research, interviews, synthesis, jobs, journeys, competition, opportunities | 8 |
-| Strategy | Validation, vision, strategy, positioning, ICP, market size, prioritization, bets | 8 |
-| Delivery | Experiments, metrics, requirements, scope, roadmap, premortem, alignment, verification | 8 |
-| Operate | Launch, pricing, growth, PMF, reviews, decisions, sunset | 8 |
-| Complete | All Product OS skills | 32 |
+| Discovery | Research, interviews, synthesis, segmentation, jobs, journeys, competition, opportunities | 9 |
+| Strategy | Validation, vision, strategy, goals, positioning, ICP, market size, prioritization, investment, bets, portfolio | 11 |
+| Delivery | Experiment design and analysis, metrics, instrumentation, requirements, scope, roadmap, risk, alignment, verification | 10 |
+| Operate | GTM, launch, onboarding, retention, pricing, growth, PMF, reviews, decisions, sunset | 11 |
+| AI Product | Evaluation, human-AI workflows, risk governance, model rollout | 4 |
+| Complete | All Product OS skills | 45 |
 
 Each skill has a canonical, verb-led name. See [docs/naming.md](docs/naming.md) for the normalization rules and [docs/source-audit.md](docs/source-audit.md) for the source review and license treatment.
 

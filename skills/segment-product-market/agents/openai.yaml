@@ -1,0 +1,4 @@
+interface:
+  display_name: "Segment Product Market"
+  short_description: "Create an evidence-backed market segmentation"
+  default_prompt: "Use $segment-product-market to create an evidence-backed product market segmentation."

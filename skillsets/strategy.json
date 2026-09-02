@@ -2,15 +2,18 @@
   "schemaVersion": 1,
   "slug": "product-os-strategy",
   "name": "Product OS Strategy",
-  "description": "Problem validation, vision, strategy, positioning, ICP, market sizing, prioritization, and bet sizing.",
+  "description": "Problem validation, vision, strategy, goals, positioning, ICP, market sizing, prioritization, investment cases, bets, and portfolio allocation.",
   "skills": [
     "validate-product-problem",
     "define-product-vision",
     "shape-product-strategy",
+    "set-product-goals",
     "define-product-positioning",
     "define-ideal-customer-profile",
     "size-market-opportunity",
     "prioritize-product-opportunities",
-    "size-product-bet"
+    "size-product-bet",
+    "build-product-business-case",
+    "manage-product-portfolio"
   ]
 }

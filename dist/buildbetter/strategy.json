@@ -8,7 +8,7 @@
   "skillset": {
     "name": "Product OS Strategy",
     "slug": "product-os-strategy",
-    "description": "Problem validation, vision, strategy, positioning, ICP, market sizing, prioritization, and bet sizing."
+    "description": "Problem validation, vision, strategy, goals, positioning, ICP, market sizing, prioritization, investment cases, bets, and portfolio allocation."
   },
   "skills": [
     {
@@ -40,6 +40,15 @@
     },
     {
       "position": 3,
+      "sourcePath": "skills/set-product-goals/SKILL.md",
+      "create": {
+        "name": "Set Product Goals",
+        "description": "Translate product strategy into a small system of outcome goals, measurable results, guardrails, ownership, and review rules. Use when setting quarterly goals or OKRs, aligning teams on outcomes, replacing output targets, or checking whether goals can guide tradeoffs.",
+        "content": "---\nname: set-product-goals\ndescription: Translate product strategy into a small system of outcome goals, measurable results, guardrails, ownership, and review rules. Use when setting quarterly goals or OKRs, aligning teams on outcomes, replacing output targets, or checking whether goals can guide tradeoffs.\n---\n\n# Set Product Goals\n\n## Contract\n\nGoals focus choices; metrics describe reality. Start from strategy and customer value, not from available dashboards. Do not disguise features, projects, or activity counts as outcomes.\n\n## Workflow\n\n1. Establish strategic horizon, governing choices, customer outcome, constraints, decision owner, and current baseline.\n2. Identify the few changes in customer behavior or product performance that would demonstrate strategic progress.\n3. Write clear objectives that name a direction and meaningful outcome without prescribing a solution.\n4. Define measurable results with population, baseline, target or threshold, window, source, owner, and rationale. Separate committed targets from learning goals.\n5. Add quality, trust, cost, reliability, and cannibalization guardrails that prevent local optimization.\n6. Test controllability and contribution: the team must influence the result without being able to achieve it through low-value gaming.\n7. Resolve dependencies, shared ownership, conflicting incentives, and capacity implications.\n8. Set check-in cadence, confidence, escalation thresholds, and rules for continuing, revising, or retiring a goal when evidence changes.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use customer evidence, surveys, project state, documents, prior decisions, and signal aggregates to ground desired outcomes. Combine them with authoritative product and business baselines when connected.\n\n## Output\n\nReturn strategy link, objectives, measurable results, baselines, targets, definitions, guardrails, owners, dependencies, confidence, cadence, and change rules.\n\n## Quality Gate\n\nReject goals that are feature lists, have no baseline or owner, reward activity without value, conflict with strategy, or can be declared achieved without observable customer or business evidence.\n\n## Provenance\n\nIndependently authored. Informed by [goal-setting-okrs](https://github.com/RefoundAI/lenny-skills/tree/main/skills/goal-setting-okrs) and [brainstorm-okrs](https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/brainstorm-okrs).\n"
+      }
+    },
+    {
+      "position": 4,
       "sourcePath": "skills/define-product-positioning/SKILL.md",
       "create": {
         "name": "Define Product Positioning",
@@ -48,7 +57,7 @@
       }
     },
     {
-      "position": 4,
+      "position": 5,
       "sourcePath": "skills/define-ideal-customer-profile/SKILL.md",
       "create": {
         "name": "Define Ideal Customer Profile",
@@ -57,7 +66,7 @@
       }
     },
     {
-      "position": 5,
+      "position": 6,
       "sourcePath": "skills/size-market-opportunity/SKILL.md",
       "create": {
         "name": "Size Market Opportunity",
@@ -66,7 +75,7 @@
       }
     },
     {
-      "position": 6,
+      "position": 7,
       "sourcePath": "skills/prioritize-product-opportunities/SKILL.md",
       "create": {
         "name": "Prioritize Product Opportunities",
@@ -75,12 +84,30 @@
       }
     },
     {
-      "position": 7,
+      "position": 8,
       "sourcePath": "skills/size-product-bet/SKILL.md",
       "create": {
         "name": "Size Product Bet",
         "description": "Set the appetite, boundaries, assumptions, option value, and kill criteria for a product bet before detailed solutioning. Use when shaping an initiative, choosing between quick exploration and major investment, sizing a pitch, or preventing scope from expanding without a new decision.",
         "content": "---\nname: size-product-bet\ndescription: Set the appetite, boundaries, assumptions, option value, and kill criteria for a product bet before detailed solutioning. Use when shaping an initiative, choosing between quick exploration and major investment, sizing a pitch, or preventing scope from expanding without a new decision.\n---\n\n# Size Product Bet\n\n## Contract\n\nAppetite is a strategic constraint, not an estimate disguised as a deadline. Match investment to evidence, reversibility, upside, downside, and learning value. Do not design the full solution before choosing the bet size.\n\n## Workflow\n\n1. Define the customer outcome, strategic contribution, urgency, and cost of inaction.\n2. Classify reversibility and downside. Identify legal, trust, safety, operational, or platform constraints that raise the bar.\n3. Assess evidence strength, key unknowns, expected upside, option value, and dependencies.\n4. Choose an appetite: probe, small bet, or major bet. State time, team shape, and opportunity cost as ranges or caps.\n5. Describe the smallest coherent approach, rabbit holes, no-gos, and what will not fit.\n6. Set validation checkpoints, leading signals, circuit breakers, and kill criteria.\n7. Record conditions that justify expanding, shrinking, pausing, or abandoning the bet.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use customer evidence, projects, triage, linked tickets, surveys, documents, and prior decisions to size uncertainty and demand. Keep estimates from engineering or finance identified by source.\n\n## Output\n\nReturn outcome, evidence, reversibility, upside and downside, appetite, scope boundaries, team and time cap, risks, checkpoints, kill criteria, and expansion conditions.\n\n## Quality Gate\n\nReject unbounded strategic bets, precise forecasts unsupported by evidence, and appetites that expand merely because the proposed solution is large.\n\n## Provenance\n\nIndependently authored. Informed by [bet-sizing](https://github.com/assimovt/productskills/tree/main/skills/bet-sizing), [evaluating-trade-offs](https://github.com/RefoundAI/lenny-skills/tree/main/skills/evaluating-trade-offs), and [feature-investment-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/feature-investment-advisor), used as reference only.\n"
+      }
+    },
+    {
+      "position": 9,
+      "sourcePath": "skills/build-product-business-case/SKILL.md",
+      "create": {
+        "name": "Build Product Business Case",
+        "description": "Build an evidence-backed product investment case with baseline, counterfactual, value drivers, costs, scenarios, uncertainty, risks, option value, and decision criteria. Use when requesting funding, comparing major bets, evaluating build-versus-buy, or deciding whether expected value justifies investment.",
+        "content": "---\nname: build-product-business-case\ndescription: Build an evidence-backed product investment case with baseline, counterfactual, value drivers, costs, scenarios, uncertainty, risks, option value, and decision criteria. Use when requesting funding, comparing major bets, evaluating build-versus-buy, or deciding whether expected value justifies investment.\n---\n\n# Build Product Business Case\n\n## Contract\n\nA business case exposes assumptions and choices; it does not manufacture a precise forecast. Compare against the credible counterfactual and include customer, operational, strategic, and risk effects—not revenue alone.\n\n## Workflow\n\n1. Define the investment decision, decision owner, horizon, alternatives, counterfactual, strategic outcome, and cost of delay.\n2. Establish the current baseline for customers, usage, revenue or cost, operations, risk, and capacity with sources and dates.\n3. Map value drivers and causal links: customer value, acquisition, retention, expansion, price, efficiency, risk reduction, learning, and strategic option value.\n4. Estimate one-time and ongoing product, engineering, data, support, sales, compliance, migration, infrastructure, and opportunity costs.\n5. Build conservative, expected, and upside scenarios with ranges, timing, dependencies, confidence, and no-double-counting rules.\n6. Test sensitivity to the few assumptions that dominate the result. Include downside, reversibility, failure cost, and break-even conditions.\n7. Compare alternatives on economics, customer impact, strategic coherence, risk, learning, and organizational capability.\n8. Recommend invest, probe, defer, buy, partner, or stop with funding gates, evidence milestones, and reconsideration triggers.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use account evidence, calls, signals, surveys, projects, documents, and prior decisions to ground demand and impact. Use authoritative finance, billing, usage, and cost systems for numerical baselines.\n\n## Output\n\nReturn decision and counterfactual, evidence ledger, value-driver model, cost model, scenarios, sensitivity, risks, alternatives, recommendation, funding gates, and missing evidence.\n\n## Quality Gate\n\nReject point forecasts without ranges, benefits without causal drivers, omitted operating costs, sunk-cost reasoning, duplicated value, and recommendations whose result flips under a small plausible assumption change without acknowledging it.\n\n## Provenance\n\nIndependently authored. Informed by [evaluating-trade-offs](https://github.com/RefoundAI/lenny-skills/tree/main/skills/evaluating-trade-offs) and [feature-investment-advisor](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/feature-investment-advisor), used as reference only because of its noncommercial license.\n"
+      }
+    },
+    {
+      "position": 10,
+      "sourcePath": "skills/manage-product-portfolio/SKILL.md",
+      "create": {
+        "name": "Manage Product Portfolio",
+        "description": "Allocate product investment across outcomes, horizons, lifecycle stages, strategic bets, discovery, maintenance, and obligations as a coherent portfolio. Use when balancing multiple products or initiatives, reviewing capacity allocation, resolving duplicated bets, or deciding what to fund, hold, combine, or stop.",
+        "content": "---\nname: manage-product-portfolio\ndescription: Allocate product investment across outcomes, horizons, lifecycle stages, strategic bets, discovery, maintenance, and obligations as a coherent portfolio. Use when balancing multiple products or initiatives, reviewing capacity allocation, resolving duplicated bets, or deciding what to fund, hold, combine, or stop.\n---\n\n# Manage Product Portfolio\n\n## Contract\n\nPortfolio management allocates scarce attention and capacity to a system of choices. Do not rank unlike work in one score or let committed work, maintenance, risk, and exploratory options disappear behind feature demand.\n\n## Workflow\n\n1. Define portfolio boundary, strategy, outcomes, horizon, capacity, constraints, decision rights, and review cadence.\n2. Inventory active and candidate investments with owner, segment, outcome, lifecycle stage, evidence, spend or capacity, dependencies, commitments, and next decision.\n3. Normalize work into lanes such as obligations, core health, growth, new bets, discovery, platform capability, and sunset while preserving strategic differences.\n4. Identify duplication, gaps, concentration, hidden shared dependencies, unsupported commitments, and initiatives with no credible path to an outcome.\n5. Evaluate portfolio balance across horizons, segments, risk, reversibility, evidence maturity, return profile, learning, and operational load.\n6. Allocate bounded capacity and funding. Sequence dependencies and protect deliberate discovery, maintenance, reliability, compliance, and transition work.\n7. Decide invest, continue, reshape, combine, hold, or stop for each material item with rationale, consequences, and change triggers.\n8. Establish a portfolio review using exact states, outcome evidence, capacity variance, risk, and decisions rather than aggregated status reporting.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use project types, projects, triage, linked tickets, customer evidence, surveys, documents, and prior decisions to build the portfolio view. Promotion or project mutation requires explicit approval.\n\n## Output\n\nReturn portfolio inventory, allocation principles, lane and horizon view, concentration and dependency findings, capacity allocation, item decisions, deferrals, stop list, risks, and review cadence.\n\n## Quality Gate\n\nReject portfolios that fund every strategy, compare obligations directly with speculative bets, omit maintenance or sunset work, hide capacity, or continue initiatives solely because they have already consumed investment.\n\n## Provenance\n\nIndependently authored. Informed by [planning-cadence](https://github.com/RefoundAI/lenny-skills/tree/main/skills/planning-cadence), [roadmap-prioritization](https://github.com/RefoundAI/lenny-skills/tree/main/skills/roadmap-prioritization), and [product-strategy](https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-strategy).\n"
       }
     }
   ]

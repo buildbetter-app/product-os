@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Product Business Case"
+  short_description: "Model product economics, scenarios, and risk"
+  default_prompt: "Use $build-product-business-case to build an evidence-backed product investment case."

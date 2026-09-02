@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Product Experiment"
+  short_description: "Turn experiment results into a valid decision"
+  default_prompt: "Use $analyze-product-experiment to analyze these results and recommend the next product decision."

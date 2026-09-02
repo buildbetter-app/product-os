@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Product Onboarding"
+  short_description: "Design the shortest trustworthy path to value"
+  default_prompt: "Use $design-product-onboarding to design an evidence-backed path from entry to first value."

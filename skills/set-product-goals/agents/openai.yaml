@@ -1,0 +1,4 @@
+interface:
+  display_name: "Set Product Goals"
+  short_description: "Turn strategy into measurable product goals"
+  default_prompt: "Use $set-product-goals to turn product strategy into measurable goals and review rules."

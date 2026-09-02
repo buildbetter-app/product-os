@@ -122,8 +122,8 @@ def main() -> int:
     except (OSError, ValueError, json.JSONDecodeError) as error:
         errors.append(f"complete.json: {error}")
 
-    if len(skill_names) != 32:
-        errors.append(f"expected 32 skills, found {len(skill_names)}")
+    if len(skill_names) != 45:
+        errors.append(f"expected 45 skills, found {len(skill_names)}")
 
     if errors:
         for error in errors:

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Go To Market Motion"
+  short_description: "Design a repeatable product distribution motion"
+  default_prompt: "Use $design-go-to-market-motion to design the repeatable distribution motion for this product."

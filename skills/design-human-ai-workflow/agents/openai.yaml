@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Human AI Workflow"
+  short_description: "Design reliable human and AI collaboration"
+  default_prompt: "Use $design-human-ai-workflow to design a reliable human and AI workflow with clear control boundaries."

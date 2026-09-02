@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Product Instrumentation"
+  short_description: "Create a decision-ready analytics tracking plan"
+  default_prompt: "Use $plan-product-instrumentation to create a decision-ready product analytics tracking plan."

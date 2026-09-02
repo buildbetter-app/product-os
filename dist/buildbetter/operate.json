@@ -8,7 +8,7 @@
   "skillset": {
     "name": "Product OS Operate",
     "slug": "product-os-operate",
-    "description": "Launch, pricing, growth, product-market fit, operating reviews, plan review, decision records, and product sunset."
+    "description": "Go-to-market, launch, onboarding, retention, pricing, growth, product-market fit, reviews, decisions, and product sunset."
   },
   "skills": [
     {
@@ -22,6 +22,33 @@
     },
     {
       "position": 1,
+      "sourcePath": "skills/design-go-to-market-motion/SKILL.md",
+      "create": {
+        "name": "Design Go To Market Motion",
+        "description": "Design a repeatable go-to-market motion connecting a beachhead segment, value proof, acquisition, evaluation, purchase, onboarding, expansion, and ownership. Use when choosing PLG, sales-led, partner, community, or hybrid distribution, or when a launch plan lacks a durable path to customers.",
+        "content": "---\nname: design-go-to-market-motion\ndescription: Design a repeatable go-to-market motion connecting a beachhead segment, value proof, acquisition, evaluation, purchase, onboarding, expansion, and ownership. Use when choosing PLG, sales-led, partner, community, or hybrid distribution, or when a launch plan lacks a durable path to customers.\n---\n\n# Design Go To Market Motion\n\n## Contract\n\nGo-to-market is the repeatable system by which customers discover, evaluate, buy, adopt, and expand—not the launch event or messaging document. Match the motion to buying reality, product value, economics, and organizational capability.\n\n## Workflow\n\n1. Define the beachhead segment, job, trigger, buyer and user roles, alternatives, proof required, price and contract context, and current stage.\n2. Map the customer path from awareness through evaluation, commitment, onboarding, value realization, renewal, and expansion.\n3. Compare plausible motions: self-serve, product-led, sales-led, partner-led, community-led, services-led, or hybrid. State assumptions and disqualifiers.\n4. Select channels and handoffs based on customer behavior and unit economics, not channel popularity.\n5. Define the product, marketing, sales, success, support, operations, and partner capabilities required at each stage.\n6. Specify proof assets, qualification, trial or demo, activation, pricing, procurement, implementation, and expansion mechanics.\n7. Model conversion, cycle time, acquisition cost, service load, retention, expansion, capacity, and feedback loops using ranges.\n8. Create a staged validation plan with owners, measures, guardrails, stop conditions, and the evidence required to scale.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use calls, objections, surveys, account context, signals, documents, projects, and customer outcomes to understand buying and adoption. Never send messages, enroll audiences, or change customer access without explicit approval.\n\n## Output\n\nReturn target segment, buying journey, motion choice and alternatives, channel system, handoffs, proof, capability gaps, economic model, validation sequence, measures, and scale conditions.\n\n## Quality Gate\n\nReject motions chosen without buying evidence, funnels with no adoption or retention path, PLG labels for products that require high-touch change, and scale plans whose economics or operating capacity remain unknown.\n\n## Provenance\n\nIndependently authored. Informed by [gtm-motions](https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-motions), [plg-sales-integration](https://github.com/RefoundAI/lenny-skills/tree/main/skills/plg-sales-integration), and [acquisition-channels](https://github.com/RefoundAI/lenny-skills/tree/main/skills/acquisition-channels).\n"
+      }
+    },
+    {
+      "position": 2,
+      "sourcePath": "skills/design-product-onboarding/SKILL.md",
+      "create": {
+        "name": "Design Product Onboarding",
+        "description": "Design an evidence-backed onboarding path from entry to first and repeated value, including segmentation, progressive setup, guidance, recovery, measurement, and experiments. Use when creating or repairing signup, activation, empty states, setup, trial conversion, or role-specific product introduction.",
+        "content": "---\nname: design-product-onboarding\ndescription: Design an evidence-backed onboarding path from entry to first and repeated value, including segmentation, progressive setup, guidance, recovery, measurement, and experiments. Use when creating or repairing signup, activation, empty states, setup, trial conversion, or role-specific product introduction.\n---\n\n# Design Product Onboarding\n\n## Contract\n\nOnboarding helps a specific user reach value in context; it is not a tour of the interface. Remove unnecessary setup before adding explanation, and do not optimize completion at the expense of trust or realized value.\n\n## Workflow\n\n1. Define the target segment, triggering situation, job, prior knowledge, environment, entry channel, and first meaningful value event.\n2. Map the current path with eligibility, required setup, decisions, permissions, dependencies, waits, errors, assistance, and abandonment points.\n3. Separate steps required for value, safety, or compliance from steps serving internal data collection or optional education.\n4. Design the shortest coherent path to value with progressive disclosure, useful defaults, contextual guidance, realistic content, and clear progress.\n5. Handle roles, team invites, integrations, data import, empty states, interrupted sessions, failures, retries, and return visits.\n6. Set expectations about automation, data use, permissions, limitations, time, cost, and irreversible effects before commitment.\n7. Define activation, time-to-value, quality, retention, support, and trust measures with guardrails and exact instrumentation needs.\n8. Prioritize changes and experiments by friction, evidence, impact, effort, and reversibility. State which segment each change serves.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use onboarding calls, signals, surveys, support evidence, account context, projects, and documents to identify friction and successful paths. Do not contact or enroll users without explicit approval.\n\n## Output\n\nReturn segment and value event, current-state journey, friction evidence, target path, screens or states, content principles, exception handling, instrumentation, measures, and experiment backlog.\n\n## Quality Gate\n\nReject onboarding that teaches every feature, requires value-irrelevant setup, obscures permissions or data use, treats completion as activation, or assumes one path fits incompatible segments.\n\n## Provenance\n\nIndependently authored. Informed by [user-onboarding-activation](https://github.com/RefoundAI/lenny-skills/tree/main/skills/user-onboarding-activation) and [customer-journey-map](https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/customer-journey-map).\n"
+      }
+    },
+    {
+      "position": 3,
+      "sourcePath": "skills/analyze-retention-and-adoption/SKILL.md",
+      "create": {
+        "name": "Analyze Retention And Adoption",
+        "description": "Diagnose product activation, cohort retention, engagement, feature adoption, churn, and value realization using behavioral and qualitative evidence. Use when investigating weak adoption, comparing cohorts or segments, evaluating product health, or deciding which retention constraint to address.",
+        "content": "---\nname: analyze-retention-and-adoption\ndescription: Diagnose product activation, cohort retention, engagement, feature adoption, churn, and value realization using behavioral and qualitative evidence. Use when investigating weak adoption, comparing cohorts or segments, evaluating product health, or deciding which retention constraint to address.\n---\n\n# Analyze Retention And Adoption\n\n## Contract\n\nRetention must describe a meaningful return to value for an eligible population. Do not hide cohort decay in aggregate active-user totals or treat logins, clicks, and feature exposure as value realization.\n\n## Workflow\n\n1. Define the decision, population, cohort entry, eligibility, value event, return interval, observation window, product state, and segments.\n2. Validate identity, event semantics, data completeness, censoring, bot and internal traffic, plan or entitlement changes, and acquisition-mix shifts.\n3. Map the path from entry through setup, activation, first value, repeated value, habit or workflow embedding, expansion, inactivity, and churn.\n4. Build cohort views for activation, time to value, classic or rolling retention, frequency, depth, breadth, feature adoption, and reactivation as appropriate.\n5. Compare segments by job, source, account, product version, tenure, behavior, and value achieved without averaging incompatible populations.\n6. Join behavioral patterns with customer evidence about friction, unmet jobs, alternatives, reliability, price, support, and reasons for leaving.\n7. Diagnose the primary constraint and distinguish acquisition quality, onboarding, product value, usability, reliability, pricing, or measurement problems.\n8. Recommend a bounded intervention, success and guardrail measures, expected affected cohort, and next evidence needed.\n\n## BuildBetter Acceleration\n\nIf BuildBetter MCP is available, search organization skills first. Use calls, signals, survey responses, people and account context, documents, and projects to explain behavioral patterns. Keep those sources distinct from authoritative product analytics and billing data.\n\n## Output\n\nReturn definitions, data-quality findings, cohort and segment views, value-path analysis, customer evidence, constraint diagnosis, confidence, intervention, and measurement plan.\n\n## Quality Gate\n\nReject aggregate retention without cohort definitions, adoption based only on exposure, causal claims from descriptive slices, or recommendations that cannot name the value event and affected population.\n\n## Provenance\n\nIndependently authored. Informed by [retention-engagement](https://github.com/RefoundAI/lenny-skills/tree/main/skills/retention-engagement) and [cohort-analysis](https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/cohort-analysis).\n"
+      }
+    },
+    {
+      "position": 4,
       "sourcePath": "skills/design-pricing-packaging/SKILL.md",
       "create": {
         "name": "Design Pricing And Packaging",
@@ -30,7 +57,7 @@
       }
     },
     {
-      "position": 2,
+      "position": 5,
       "sourcePath": "skills/design-growth-loop/SKILL.md",
       "create": {
         "name": "Design Growth Loop",
@@ -39,7 +66,7 @@
       }
     },
     {
-      "position": 3,
+      "position": 6,
       "sourcePath": "skills/evaluate-product-market-fit/SKILL.md",
       "create": {
         "name": "Evaluate Product Market Fit",
@@ -48,7 +75,7 @@
       }
     },
     {
-      "position": 4,
+      "position": 7,
       "sourcePath": "skills/run-product-review/SKILL.md",
       "create": {
         "name": "Run Product Review",
@@ -57,7 +84,7 @@
       }
     },
     {
-      "position": 5,
+      "position": 8,
       "sourcePath": "skills/review-product-plan/SKILL.md",
       "create": {
         "name": "Review Product Plan",
@@ -66,7 +93,7 @@
       }
     },
     {
-      "position": 6,
+      "position": 9,
       "sourcePath": "skills/write-product-decision/SKILL.md",
       "create": {
         "name": "Write Product Decision",
@@ -75,7 +102,7 @@
       }
     },
     {
-      "position": 7,
+      "position": 10,
       "sourcePath": "skills/manage-product-sunset/SKILL.md",
       "create": {
         "name": "Manage Product Sunset",
